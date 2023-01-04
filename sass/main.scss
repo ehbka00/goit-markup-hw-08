@@ -1,0 +1,25 @@
+@import './utils/variables';
+@import './utils/placeholder';
+@import './utils/mixin';
+
+@import './base/reset';
+@import './base/common';
+@import './base/hidden';
+
+
+@import './components/container';
+@import './components/btn';
+
+@import './layout/header';
+@import './pages/main/hero';
+@import './pages/main/projects';
+@import './pages/main/work';
+@import './pages/main/team';
+@import './pages/main/clients';
+@import './layout/footer';
+@import './layout/modal';
+
+// PORTFOLIO
+
+@import './pages/portfolio/sort_panel';
+@import './pages/portfolio/projects';

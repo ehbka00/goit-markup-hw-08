@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+:focus {
+	outline: none;
+}
+
+a {
+	color: var(--global-color);
+	text-decoration: none;
+}
