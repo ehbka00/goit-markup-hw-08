@@ -35,7 +35,7 @@
 }
 
 .team__link {
-	width: 100%;
+	flex-basis: 100%;
 	text-align: center;
 
 	background-color: var(--white-text-color);
@@ -45,8 +45,7 @@
 	border-radius: 0px 0px 4px 4px;
 
 	@media screen and (min-width: 768px) {
-		// width: calc((100% - 60px) / 2);
-		width: 354px;
+		flex-basis: calc((100% - 60px) / 2);
 	}
 }
 
