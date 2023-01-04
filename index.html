@@ -47,6 +47,62 @@
 						+38 096 111 11 11</a>
 				</li>
 			</ul>
+
+			<!------ mobile-menu ------->
+
+			<button type="button" class="header__burger-menu" aria-expanded="false">
+				<svg width="40" height="40" class="">
+					<use href="./image/icons.svg#icon-menu_40px"></use>
+				</svg>
+			</button>
+		</div>
+		<div class="mobile-menu">
+			<div class="container">
+
+
+				<div class="mobile-menu__box">
+					<div>
+						<button type="button" class="mobile-menu__btn">
+							<svg width="40" height="40" class="">
+								<use href="./image/icons.svg#icon-close_40px"></use>
+							</svg>
+						</button>
+						<ul class="mobile-menu__list list">
+							<li class="mobile-menu__item"> <a href="./index.html"
+									class="mobile-menu__link header__link--active">Студія</a>
+							</li>
+							<li class="mobile-menu__item"> <a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a>
+							</li>
+							<li class="mobile-menu__item"> <a href="" class="mobile-menu__link">Контакти</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<ul class="mobile-menu__contact list">
+							<li class="mobile-menu__list-contact">
+								<a class="mobile-menu__contact-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+							</li>
+							<li class="mobile-menu__contact">
+								<a class="mobile-menu__contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+						</ul>
+						<ul class="mobile-menu__social list">
+							<li class="mobile-menu__social-list">
+								<a class="mobile-menu__social-link" href="">Instagram</a>
+							</li>
+							<li class="mobile-menu__social-list">
+								<a class="mobile-menu__social-link" href="">Twitter</a>
+							</li>
+							<li class="mobile-menu__social-list">
+								<a class="mobile-menu__social-link" href="">Facebook</a>
+							</li>
+							<li class="mobile-menu__social-list">
+								<a class="mobile-menu__social-link" href="">LinkedIn</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
 
@@ -171,7 +227,7 @@
 								media="(min-width: 768px)" />
 							<source srcset="./image/adaptive/igir-tel.jpg 1x, ./image/adaptive/igir-tel2x.jpg 2x"
 								media="(min-width: 480px)" />
-							<img src="./image/igor.jpg" alt="Product Designer" width="270">
+							<img src="./image/igor.jpg" alt="Product Designer">
 						</picture>
 						<h3 class="team__title">Ігор Дем'яненко</h3>
 						<p class="team__text">Product Designer</p>
@@ -214,7 +270,7 @@
 								media="(min-width: 768px)" />
 							<source srcset="./image/adaptive/olga-tel.jpg 1x, ./image/adaptive/olga-tel2x.jpg 2x"
 								media="(min-width: 480px)" />
-							<img src="./image/olga.jpg" alt="Frontend Developer" width="270">
+							<img src="./image/olga.jpg" alt="Frontend Developer">
 						</picture>
 						<h3 class="team__title">Ольга Рєпіна</h3>
 						<p class="team__text">Frontend Developer</p>
@@ -257,7 +313,7 @@
 								media="(min-width: 768px)" />
 							<source srcset="./image/adaptive/mukola-tel.jpg 1x, ./image/adaptive/mukola-tel2x.jpg 2x"
 								media="(min-width: 480px)" />
-							<img src="./image/mukola.jpg" alt="Marketing" width="270">
+							<img src="./image/mukola.jpg" alt="Marketing">
 						</picture>
 
 						<h3 class="team__title">Микола Тарасов</h3>
@@ -301,7 +357,7 @@
 								media="(min-width: 768px)" />
 							<source srcset="./image/adaptive/muhailo-tel.jpg 1x, ./image/adaptive/muhailo-tel2x.jpg 2x"
 								media="(min-width: 480px)" />
-							<img src="./image/mushailo.jpg" alt="UI Designer" width="270">
+							<img src="./image/mushailo.jpg" alt="UI Designer">
 						</picture>
 						<h3 class="team__title">Михайло Єрмаков</h3>
 						<p class="team__text">UI Designer</p>
@@ -526,6 +582,7 @@
 		</div>
 	</div>
 	<script src="./js/modal.js"></script>
+	<script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
