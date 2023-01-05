@@ -365,7 +365,12 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
-  padding: 10px 0px 48px 25px;
+  padding: 10px 0px 48px 0px;
+}
+@media screen and (min-width: 480px) {
+  .mobile-menu__box {
+    padding: 10px 0px 48px 25px;
+  }
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -399,7 +404,7 @@ img {
 
 .mobile-menu__contact-tel {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 1.176;
   letter-spacing: 0.02em;
   color: var(--second-color);
@@ -408,6 +413,11 @@ img {
 }
 .mobile-menu__contact-tel:focus {
   color: var(--focus-color);
+}
+@media screen and (min-width: 480px) {
+  .mobile-menu__contact-tel {
+    font-size: 34px;
+  }
 }
 
 .mobile-menu__contact-mail {
@@ -437,10 +447,15 @@ img {
 
 .mobile-menu__social-link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--focus-color);
+}
+@media screen and (min-width: 480px) {
+  .mobile-menu__social-link {
+    font-size: 18px;
+  }
 }
 
 .hero {
@@ -1124,7 +1139,7 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  width: 528px;
+  width: 305px;
   min-height: 581px;
   padding: 40px;
   background-color: var(--white-text-color);
@@ -1136,6 +1151,16 @@ img {
 .backdrop__modal.is-hidden {
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
+}
+@media screen and (min-width: 480px) {
+  .backdrop__modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop__modal {
+    width: 528px;
+  }
 }
 
 .backdrop__btn {
@@ -1273,18 +1298,29 @@ img {
 .backdrop__label-contract {
   letter-spacing: 0.03em;
   line-height: 1.71;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--second-color);
 }
 .backdrop__label-contract::before {
   content: "";
   display: block;
-  width: 16px;
+  width: 23px;
   height: 15px;
   margin-left: 12px;
   margin-right: 8px;
   border: 2px solid var(--global-color);
   border-radius: 2px;
+}
+@media screen and (min-width: 480px) {
+  .backdrop__label-contract::before {
+    width: 16px;
+    height: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop__label-contract {
+    font-size: 14px;
+  }
 }
 
 .backdrop__link {
